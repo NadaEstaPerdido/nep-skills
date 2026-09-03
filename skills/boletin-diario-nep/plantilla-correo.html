@@ -1,0 +1,92 @@
+<!--
+  PLANTILLA DE CORREO — Boletín NEP
+  Cómo usarla:
+  - Reemplaza los marcadores {{...}}.
+  - {{FECHA}}: ej. "martes 1 de septiembre de 2026".
+  - {{PULSO}}: párrafo de "El pulso del día" (3-4 frases).
+  - Duplica el bloque <!-- NOTICIA --> por cada noticia (5-8). Cambia titular, "Qué pasó", "Qué implica" y las fuentes.
+  - {{QUE_IMPLICA}}: si es proyección/opinión, empieza con "🔍 ".
+  - Bloque RUMORES: solo si hay; si no, bórralo.
+  - Bloque COBERTURA: solo si aplica; si no, bórralo.
+  - Enviar por Gmail: usar este HTML como htmlBody + una versión en texto plano como body. NO adjuntar el logo (va por URL). Asunto: "Boletín NEP · {{FECHA}}".
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>.tt{font-family:'Space Grotesk','Segoe UI',Arial,Helvetica,sans-serif;}</style>
+</head>
+<body style="margin:0; padding:0; background-color:#ead7c7; font-family:Arial,Helvetica,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#ead7c7;">
+<tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px; max-width:600px; background-color:#fffbf6; border-radius:16px; overflow:hidden;">
+
+  <!-- CABECERA / LOGO (va por URL pública; NO usar CID ni base64) -->
+  <tr>
+    <td style="background-color:#f6cba9; padding:26px 32px 22px 32px;" align="center">
+      <img src="https://nc.nadaestaperdido.lat/index.php/s/ZEQCPo2FT5K46D4/download" alt="NADA ESTÁ PERDIDO" width="200" style="display:block; margin:0 auto; width:200px; max-width:66%; height:auto;">
+    </td>
+  </tr>
+  <tr><td style="height:5px; background-color:#e85d1b; font-size:0; line-height:0;">&nbsp;</td></tr>
+
+  <!-- PULSO DEL DÍA -->
+  <tr>
+    <td style="padding:22px 32px 8px 32px;">
+      <div class="tt" style="font-size:12px; letter-spacing:1.5px; text-transform:uppercase; color:#0d3b2d; font-weight:700; margin-bottom:14px;">Boletín diario · {{FECHA}}</div>
+      <div class="tt" style="font-size:12px; letter-spacing:1.5px; text-transform:uppercase; color:#e85d1b; font-weight:700; margin-bottom:8px;">El pulso del día</div>
+      <p style="margin:0; font-size:16px; line-height:1.6; color:#33473d;">{{PULSO}}</p>
+    </td>
+  </tr>
+
+  <!-- TÍTULO DE SECCIÓN -->
+  <tr>
+    <td style="padding:22px 32px 4px 32px;">
+      <div class="tt" style="font-size:12px; letter-spacing:1.5px; text-transform:uppercase; color:#0d3b2d; font-weight:700; border-bottom:2px solid #e6d3c2; padding-bottom:8px;">Lo que hizo el Gobierno</div>
+    </td>
+  </tr>
+
+  <!-- NOTICIA (duplicar este bloque por cada noticia) -->
+  <tr><td style="padding:16px 32px 0 32px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#fbf4ec; border-radius:10px; border-left:4px solid #0d3b2d;"><tr><td style="padding:16px 18px;">
+      <h2 class="tt" style="margin:0 0 8px 0; font-size:19px; line-height:1.32; color:#0d3b2d; font-weight:700;">{{TITULAR}}</h2>
+      <p style="margin:0 0 10px 0; font-size:15px; line-height:1.55; color:#33473d;"><strong style="color:#0d3b2d;">Qué pasó:</strong> {{QUE_PASO}}</p>
+      <p style="margin:0 0 12px 0; font-size:15px; line-height:1.55; color:#33473d;"><strong style="color:#e85d1b;">Qué implica:</strong> {{QUE_IMPLICA}}</p>
+      <div style="font-size:13px; color:#6b7d71;">Fuente: <a href="{{URL_1}}" style="color:#1f6b4a; text-decoration:none; font-weight:600;">{{MEDIO_1}}</a> · <a href="{{URL_2}}" style="color:#1f6b4a; text-decoration:none; font-weight:600;">{{MEDIO_2}}</a></div>
+    </td></tr></table>
+  </td></tr>
+  <!-- /NOTICIA -->
+
+  <!-- RUMORES EN CIRCULACIÓN (opcional; borrar si no hay) -->
+  <tr><td style="padding:16px 32px 0 32px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#fbf0ec; border-radius:10px; border-left:4px dashed #b0641f;"><tr><td style="padding:14px 18px;">
+      <div class="tt" style="font-size:12px; letter-spacing:1px; text-transform:uppercase; color:#b0641f; font-weight:700; margin-bottom:6px;">Rumores en circulación</div>
+      <p style="margin:0; font-size:14px; line-height:1.55; color:#6b5a3f;">{{RUMOR}} <em>(sin confirmar)</em></p>
+    </td></tr></table>
+  </td></tr>
+
+  <!-- COBERTURA LIMITADA (opcional; borrar si no aplica) -->
+  <tr><td style="padding:16px 32px 0 32px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6ead9; border-radius:10px; border:1px solid #e6d3c2;"><tr><td style="padding:14px 18px;">
+      <div class="tt" style="font-size:12px; letter-spacing:1px; text-transform:uppercase; color:#b0641f; font-weight:700; margin-bottom:6px;">Cobertura limitada hoy</div>
+      <p style="margin:0; font-size:14px; line-height:1.55; color:#6b5a3f;">{{COBERTURA}}</p>
+    </td></tr></table>
+  </td></tr>
+
+  <!-- DESPEDIDA -->
+  <tr>
+    <td style="padding:8px 32px 32px 32px;">
+      <div style="border-top:2px solid #e6d3c2; padding-top:22px; margin-top:22px; text-align:center;">
+        <div class="tt" style="font-size:15px; color:#0d3b2d; font-weight:700; letter-spacing:0.5px;">NADA ESTÁ PERDIDO</div>
+        <p style="margin:10px 0 0 0; font-size:14px; line-height:1.55; color:#6b7d71;">Vigilar al poder es tarea de todxs.<br>Si esto te sirvió, compártelo con quien necesite estar informadx. Nos leemos mañana.</p>
+      </div>
+    </td>
+  </tr>
+
+</table>
+<div style="font-size:11px; color:#9a8b7a; margin-top:16px; max-width:600px; line-height:1.5;">Boletín producido con búsqueda automatizada; verifica cada enlace antes de compartir.</div>
+</td></tr>
+</table>
+</body>
+</html>
