@@ -30,6 +30,8 @@ Si tienes acceso a Gmail, antes de monitorear lee las ediciones anteriores segú
 - **Lunes:** lee el **especial dominical de ayer** y anota su top 5 — esas noticias NO se repiten hoy (si evolucionaron, van como actualización). Lee también el último boletín normal (el del viernes) para no repetir lo del viernes.
 - **Domingo (especial):** lee los boletines de la semana (lunes a viernes) para tener a la mano los hechos entre los que vas a elegir las 5 más importantes.
 
+**Cerebro NEP (memoria histórica).** Además de las ediciones recientes, lee el **Cerebro NEP**: un borrador de Gmail con asunto exacto `🧠 Cerebro NEP` que guarda los hilos, actores y cronología del movimiento a lo largo del tiempo (búscalo en borradores; si no existe todavía, sáltate esto y lo crearás en el Paso 6). Úsalo para lo que hace valioso al boletín: cuando una noticia de hoy **continúe un hilo ya registrado** (un decreto que ahora se demanda, un funcionario que reaparece, una cifra que empeora), **dilo explícitamente en "Qué implica"** y conéctala con lo anterior ("esto viene de…; ver [fecha]"). Ese es el uso vivo del cerebro; al cerrar la edición lo actualizarás (Paso 6).
+
 Si no tienes acceso a Gmail o no hay ediciones anteriores, continúa sin este paso.
 
 ## Paso 2 — Monitoreo
@@ -145,6 +147,37 @@ Identidad de NEP (guardada también en memoria `nep-marca-y-estilo`):
 Título/logo en el correo (LIMITACIÓN CONFIRMADA): el conector de Gmail ELIMINA todas las imágenes del htmlBody al enviar (probado con `<img src=URL>`, `cid:` y base64: las tres desaparecen), así que **NO se puede mostrar un logo**. Por eso el header lleva el **título en TEXTO**: wordmark verde "NADA ESTÁ / PERDIDO" con la "O" final en naranja (`<span style="color:#e85d1b;">O</span>`), sobre fondo durazno. Nunca pongas un `<img>` de logo en el header del correo: se cae.
 
 **Plantilla lista para usar:** parte SIEMPRE del archivo [`plantilla-correo.html`](plantilla-correo.html) que está en esta misma carpeta de la skill. Ya trae la cabecera con el **título en texto** (O final naranja), la paleta, la tipografía, la tarjeta de noticia (duplícala por cada noticia) y los bloques opcionales de "Rumores en circulación" y "Cobertura limitada". Solo reemplaza los marcadores `{{...}}`. Esto ahorra tiempo y créditos: no rediseñes el HTML desde cero cada día.
+
+## Paso 6 — Actualizar el cerebro (memoria histórica)
+
+Después de enviar (o de entregar el boletín en la conversación), actualiza el **Cerebro NEP**: la memoria histórica que permite conectar lo de hoy con lo de hace semanas o meses y, más adelante, alimentar guiones más complejos. Vive como un **borrador de Gmail** con asunto exacto `🧠 Cerebro NEP` (esta es la fuente de verdad).
+
+Si tienes acceso a borradores de Gmail:
+
+1. Busca el borrador con asunto `🧠 Cerebro NEP`. Si no existe, créalo con la estructura de abajo.
+2. Incorpora lo de hoy **sin reescribir todo**: agrega los hitos nuevos, pon al día los hilos que avanzaron, suma actores o cifras que aparezcan.
+3. Mantenlo **destilado y en texto plano** (es un índice, no un archivo de boletines): la memoria larga vive en los *hilos* (resumidos); el detalle reciente, en la *cronología*.
+4. **Guarda el borrador; NUNCA lo envíes.** Es solo memoria interna.
+
+Estructura del cerebro:
+
+```
+🧠 Cerebro NEP · actualizado [AAAA-MM-DD]
+
+## Hilos abiertos
+- **[Hilo]** (desde [fecha]) — estado en una línea. Hitos: [fecha] → [fecha] → … · enlace clave: [url] · estado: activo / latente.
+
+## Actores clave
+- **[Persona o entidad]** — rol · apariciones ([fechas]) · qué vigilar.
+
+## Cronología (más reciente arriba; conserva ~90 días; lo más viejo se comprime dentro de su hilo)
+- [fecha] — [hecho en una línea] · [medio/enlace] · hilo: [nombre]
+
+## Cifras y datos a recordar
+- [cifra + contexto + fecha + enlace]
+```
+
+Si no tienes acceso a borradores de Gmail, omite este paso y anótalo en tu reporte final.
 
 ## Reglas de veracidad (innegociables)
 
