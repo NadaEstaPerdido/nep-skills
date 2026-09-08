@@ -1,14 +1,9 @@
 <!--
   PLANTILLA DE CORREO — Boletín NEP
-  Cómo usarla:
-  - Reemplaza los marcadores {{...}}.
-  - {{FECHA}}: ej. "martes 1 de septiembre de 2026".
-  - {{PULSO}}: párrafo de "El pulso del día" (3-4 frases).
-  - Duplica el bloque <!-- NOTICIA --> por cada noticia (5-8). Cambia titular, "Qué pasó", "Qué implica" y las fuentes.
-  - {{QUE_IMPLICA}}: si es proyección/opinión, empieza con "🔍 ".
-  - Bloque RUMORES: solo si hay; si no, bórralo.
-  - Bloque COBERTURA: solo si aplica; si no, bórralo.
-  - Enviar por Gmail: usar este HTML como htmlBody + una versión en texto plano como body. NO adjuntar el logo (va por URL). Asunto: "Boletín NEP · {{FECHA}}".
+  - Reemplaza los {{...}}. {{FECHA}}: "martes 1 de septiembre de 2026". {{PULSO}}: párrafo del pulso (3-4 frases).
+  - Duplica el bloque NOTICIA por cada noticia (5-8). {{QUE_IMPLICA}}: si es proyección/opinión, empieza con "🔍 ".
+  - Bloques RUMORES y COBERTURA: opcionales; bórralos si no aplican.
+  - ENVÍO (crítico): este HTML va COMPLETO y SOLO en el parámetro htmlBody (empieza en <!DOCTYPE html>, cierra en </html>, sin nada después). El body es texto plano SIN etiquetas. Nunca metas este HTML dentro del body. Ver "contrato de envío" en SKILL.md.
 -->
 <!DOCTYPE html>
 <html lang="es">

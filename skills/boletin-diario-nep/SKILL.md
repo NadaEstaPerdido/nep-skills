@@ -134,8 +134,22 @@ Las reglas de veracidad, lenguaje incluyente y marcado de hecho vs. opinión apl
 ## Paso 5 — Entrega
 
 - Si no hay destinatario indicado, entrega el boletín completo en la conversación (Markdown).
-- Si la tarea o el usuario indican un destinatario y tienes Gmail conectado, envía el boletín por correo con el asunto exacto de la estructura. **Envíalo como HTML con la identidad de NEP** (ver identidad y plantilla abajo), no como texto plano; incluye igual una versión en texto plano en el cuerpo como respaldo (`body`) además del `htmlBody`.
+- Si la tarea o el usuario indican un destinatario y tienes Gmail conectado, envía el boletín por correo con el asunto exacto de la estructura. **Envíalo como HTML con la identidad de NEP** (ver identidad y plantilla abajo), no como texto plano; incluye igual una versión en texto plano en el cuerpo como respaldo (`body`) además del `htmlBody`. **Antes de enviar, cumple el contrato de envío de abajo** (obligatorio).
 - Si una búsqueda falla o los resultados son pobres, no inventes para rellenar: entrega lo que sí encontraste y usa la sección "Cobertura limitada hoy".
+
+### Cómo enviar el correo sin romperlo (contrato obligatorio)
+
+El 8-sep-2026 el boletín salió a toda la lista con **todo el código HTML visible como texto**: el cuerpo de texto plano terminó conteniendo el HTML entero y hasta etiquetas de la propia llamada a la herramienta (`<htmlBody>`, `</htmlBody>`, `</invoke>`). Pasó porque el HTML se metió dentro del `body` en vez de ir en su parámetro. Para que **no vuelva a ocurrir**, al enviar con el conector de Gmail:
+
+1. **Arma DOS textos separados**, cada uno en su propio parámetro. Nunca los concatenes ni pegues uno dentro del otro.
+   - `body` = **SOLO** la versión en texto plano del boletín (el mismo contenido, en texto corrido, sin una sola etiqueta HTML). Es el respaldo para clientes que no renderizan HTML.
+   - `htmlBody` = **SOLO** el HTML de marca (la plantilla con los `{{...}}` reemplazados).
+2. **El `htmlBody` es solo HTML.** Debe empezar en `<!DOCTYPE html>` y terminar **exactamente** en `</html>`. Después de `</html>` no va NADA: ni `</htmlBody>`, ni `</invoke>`, ni ninguna etiqueta de la llamada. Si ves cualquiera de esas etiquetas dentro del valor, la llamada está mal formada.
+3. **Verificación antes de disparar el envío (no la saltes).** Relee los dos valores y confirma:
+   - `body` **no contiene ninguna etiqueta**. Si aparece `<`, `<!DOCTYPE`, `<html`, `<table`, `<htmlBody` o `</invoke`, está contaminado → recompón el `body` como texto plano limpio y vuelve a revisar.
+   - `htmlBody` empieza en `<!DOCTYPE html>` y cierra en `</html>` sin cola extra.
+   - El asunto es el exacto de la estructura (`Boletín NEP · …`).
+   - Si algo de esto falla, **NO envíes**: corrige y verifica de nuevo. Es preferible retrasar el correo un minuto que mandar el HTML crudo a toda la lista.
 
 ### Identidad visual y correo HTML
 
