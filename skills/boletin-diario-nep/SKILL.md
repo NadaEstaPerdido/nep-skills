@@ -42,10 +42,11 @@ Haz varias búsquedas web (al menos 6, idealmente 8-10) cubriendo estos frentes.
 2. **Nombramientos y entorno**: a quién nombra, de quién se rodea, qué contratos y alianzas aparecen. El control político empieza por saber quién está en cada silla.
 3. **Libertades civiles**: protesta, prensa, expresión, diversidad sexual y de género, derechos reproductivos, voto y garantías electorales.
 4. **Seguridad y fuerza**: servicio militar, operativos, militarización, declaraciones sobre orden público. En operativos, bombardeos o hechos de violencia, verifica SIEMPRE y de forma explícita si hubo víctimas civiles, personas heridas o **menores de edad**: no te quedes con el balance oficial de "combatientes dados de baja"; busca el dato humano, que suele ser la noticia.
-5. **Ambiente y animales**: agua, minería, fracking, deforestación, fauna, licencias ambientales, retrocesos normativos.
+5. **Ambiente y animales**: agua, minería, fracking, deforestación, fauna, licencias ambientales, retrocesos normativos. Incluye **crisis ambientales en curso** (incendios forestales, sequías, emergencias, contaminación) y **qué está haciendo —o no— el Estado** frente a ellas; la **fumigación/aspersión de cultivos** y los herbicidas que el Gobierno propone o retoma (glifosato, glufosinato); y el **debilitamiento o desfinanciación** del Ministerio de Ambiente y de las autoridades ambientales. Una propuesta o un anuncio del Gobierno cuenta aunque no sea todavía un decreto firmado.
 6. **Economía popular**: deuda externa, tarifas de servicios, subsidios, salario, empleo, reformas laborales o pensionales, precios.
 7. **Derecha política y aliados**: declaraciones de congresistas, concejales, gobernadores y voceros afines que revelen intenciones o amenazas.
 8. **Respuesta ciudadana**: movilizaciones, pronunciamientos de organizaciones sociales, fallos judiciales, resistencias.
+9. **Omisión e inacción del poder**: lo que el Gobierno **no** hace también es control político. Busca crisis vivas sin respuesta estatal suficiente (un incendio que lleva días sin controlarse, una emergencia sin atención, un desabastecimiento), recortes y desfinanciaciones que debilitan la capacidad de responder, promesas incumplidas, y **voces ciudadanas que en las noticias piden apoyo del Estado y no lo reciben**. La ausencia de acción, cuando hay un deber y una necesidad, es noticia — y a menudo es LA noticia.
 
 Prioriza fuentes primarias colombianas: El Espectador, La Silla Vacía, Cambio, W Radio, Blu Radio, El Tiempo, Caracol, RCN, Semana (con cautela editorial), medios regionales, cuentas oficiales y documentos originales (decretos en la Presidencia, proyectos en el Congreso). Cuando una noticia venga de una sola fuente, búscala en una segunda.
 
@@ -59,13 +60,17 @@ Elige entre 5 y 8 noticias. Criterios, en este orden:
 
 1. **Verificable**: tiene fuente identificable y enlace real. Si no puedes confirmarla, no entra (o entra en "Rumores en circulación", claramente separada).
 2. **Relevante para el eje del movimiento**: afecta libertades, derechos, vida, territorio o bolsillo.
-3. **Fresca**: ocurrió o se desarrolló en la ventana de tiempo.
+3. **Fresca**: ocurrió o se desarrolló en la ventana de tiempo. Una **crisis o una omisión en curso** cuenta como fresca mientras siga viva: el hecho del día es que *hoy sigue pasando* ("van cinco días sin controlar el incendio en el Tolima", "el recorte al Ministerio sigue sin revertirse"), aunque haya empezado antes de la ventana.
 4. **Diversa**: que el boletín no sea 8 noticias del mismo tema. Cubre al menos 3 frentes distintos.
+
+**Una noticia válida no es solo un decreto o un anuncio.** También lo es una **crisis en curso mirada por la (in)acción del poder** y una **omisión del Estado** (desfinanciación, respuesta ausente, promesa incumplida). No las descartes por no ser un "hecho firmado": el hecho verificable es la crisis misma —sus días, sus cifras, el recorte, el clamor sin respuesta— y la fuente lo respalda. Para un movimiento que defiende la vida y el territorio, el silencio del poder frente a un incendio o una emergencia es tan noticiable como un decreto.
 
 A cada noticia asígnale un nivel de verificación:
 - ✅ **Hecho**: decreto firmado, votación registrada, declaración grabada o publicada en cuenta oficial.
 - 🗣️ **Declaración / anuncio**: dicho por un funcionario pero aún no ejecutado.
 - 🔍 **Interpretación**: análisis nuestro sobre consecuencias probables. Siempre marcado como tal.
+
+En una **omisión**, separa igual el hecho de la lectura: que la crisis existe, lleva X días o el presupuesto se recortó en tal cifra es ✅ con fuente; que eso constituya **abandono o negligencia** del Gobierno es lectura 🔍, y va en "Qué implica". Si el Gobierno respondió (aunque sea con una declaración), inclúyela para no falsear por omisión al revés.
 
 ## Paso 4 — Redacción
 
@@ -74,6 +79,8 @@ Escribe en español colombiano, claro, directo, sin jerga institucional. El tono
 **Lenguaje incluyente (obligatorio):** usa siempre lenguaje incluyente. En colectivos genéricos de personas reemplaza la "o" masculina por "x" (todxs, damnificadxs, ciudadanxs, informadx, nosotrxs). Deja intactos los nombres propios, los cargos de personas identificadas y los nombres oficiales de entidades (p. ej. "Consejo de Ministros"). Cuando quepa, prefiere también formas neutras ("la ciudadanía", "las personas").
 
 Prohibido: exagerar, atribuir intenciones no documentadas, usar adjetivos que sustituyan datos ("nefasto", "criminal") y reproducir textos largos de los medios (parafrasea; cita máximo una frase corta por fuente).
+
+**El lente incluye la omisión.** La sección "Lo que hizo el Gobierno" (su título no cambia) abarca también **lo que el Gobierno dejó de hacer**: la inacción ante una crisis, la desfinanciación, la ayuda que no llegó. Cuando aplique, titula desde ahí ("El Ministerio de Ambiente se queda sin recursos mientras arde el Tolima", "Cinco días de incendio y la respuesta oficial no aparece") y usa "Qué implica" para nombrar el deber incumplido, sin atribuir intenciones que no estén documentadas.
 
 ### Estructura obligatoria del boletín
 
