@@ -4,6 +4,7 @@ Fuente única de las skills que ejecuta la rutina de nube "Boletin diario Nada E
 
 - `skills/boletin-diario-nep/` — boletín diario (monitoreo + correo HTML de marca).
 - `skills/guiones-reels-nep/` — guiones de reels "Alza la Idea".
+- `skills/infografia-nep/` — infografía del boletín (feed y story) con la marca NEP; se publica en la rama `claude/serene-faraday` (`infografias/AAAA-MM-DD/`).
 
 ## Cómo se usa
 La rutina de nube clona este repo en cada corrida y sigue estos SKILL.md.

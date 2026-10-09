@@ -200,6 +200,10 @@ Estructura del cerebro:
 
 Si no tienes acceso a borradores de Gmail, omite este paso y anótalo en tu reporte final.
 
+## Paso 7 — Infografía del día
+
+Con el boletín ya enviado y el cerebro al día, conviértelo en infografía para redes siguiendo **`skills/infografia-nep/SKILL.md`** (léelo completo). Es parte de la rutina diaria del boletín (no es un reel) y sale los mismos días que el boletín, incluido el especial del domingo. Usa solo lo que ya está en el boletín verificado. La infografía va **solo a foreman1204@gmail.com**, nunca a Make ni a la lista. Si algo de este paso falla, repórtalo en ese correo y termina: el boletín ya salió.
+
 ## Reglas de veracidad (innegociables)
 
 - Nunca inventes citas, cifras, nombres ni enlaces. Un enlace que no salió de una búsqueda real no existe.

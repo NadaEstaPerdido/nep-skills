@@ -1,0 +1,58 @@
+{
+  "fecha": "2026-10-08",
+  "edicion": "diaria",
+  "cubre": "Lo que pasó el miércoles 7",
+  "titulo": "Un Gobierno que avanza a punta de *anuncios y confrontaciones*",
+  "cifra": {
+    "valor": "$4,4 billones",
+    "texto": "en pagos a prestadores de salud del Fomag *sin evidencias ni soportes*, según la Contraloría",
+    "fuente": "Infobae · El Tiempo"
+  },
+  "noticias": [
+    {
+      "frente": "salud",
+      "nivel": "anuncio",
+      "titulo": "Auditoría al Fomag, el fondo de salud de lxs maestrxs",
+      "dato": "Cerró 2025 con patrimonio negativo de $3,2 billones",
+      "implica": "La pregunta es si lxs docentes reciben atención mientras se cuentan los faltantes.",
+      "fuente": "Infobae · El Tiempo"
+    },
+    {
+      "frente": "protesta",
+      "nivel": "hecho",
+      "titulo": "«No vamos a negociar bajo presión»: advertencia al CRIC",
+      "dato": "Anuncia revisar $1,13 billones entregados al CRIC",
+      "implica": "Deslegitimar a una organización antes de que marche angosta la protesta.",
+      "fuente": "Semana · Infobae"
+    },
+    {
+      "frente": "poder",
+      "nivel": "hecho",
+      "titulo": "El presidente cancela a dedo el contrato de un exmagistrado",
+      "dato": "$60 millones en MinInterior para un exmagistrado del CNE",
+      "implica": "Si cada vinculación pasa por su filtro, la lealtad pesa más que la función.",
+      "fuente": "El Heraldo · Portafolio"
+    },
+    {
+      "frente": "ambiente",
+      "nivel": "anuncio",
+      "titulo": "Plan de choque contra el riesgo de apagón por la sequía",
+      "dato": "Medidas antes del 31 de diciembre, con El Niño en su pico",
+      "implica": "La crisis ambiental ya es crisis de energía y de bolsillo.",
+      "fuente": "RTVC Noticias"
+    },
+    {
+      "frente": "democracia",
+      "nivel": "hecho",
+      "titulo": "La palabra «reelección» vuelve y enciende el pulso con Petro",
+      "dato": "Prohibida por la Constitución, a dos meses de Gobierno",
+      "implica": "Hablar de reelección tan pronto normaliza la idea de perpetuarse en el poder.",
+      "fuente": "Vanguardia · El País"
+    }
+  ],
+  "sigue": [
+    "Presupuesto 2027 en plenarias (plazo 20 de octubre)",
+    "Cumbre indígena del CRIC, 11 al 14 de octubre",
+    "Ayudas al Tolima por la sequía, aún sin aterrizar"
+  ]
+}
