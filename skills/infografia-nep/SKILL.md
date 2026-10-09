@@ -5,6 +5,8 @@ description: Convierte el boletín diario de Nada Está Perdido 2.0 en una infog
 
 # Infografía del boletín NEP
 
+> **En aprobación.** La rutina de nube todavía no la ejecuta; por ahora se usa a mano en el PC.
+
 La infografía es el boletín en una imagen: alguien que no abre el correo entiende en 20 segundos qué hizo el poder ayer y por qué importa. Sale **del boletín ya verificado**: no se busca ni se agrega nada nuevo. El diseño lo pone el código (`infografia.py`); tu trabajo es elegir y condensar bien.
 
 ## 1. Llena los datos (JSON)
