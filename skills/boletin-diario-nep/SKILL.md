@@ -30,7 +30,7 @@ Si tienes acceso a Gmail, antes de monitorear lee las ediciones anteriores segú
 - **Lunes:** lee el **especial dominical de ayer** y anota su top 5 — esas noticias NO se repiten hoy (si evolucionaron, van como actualización). Lee también el último boletín normal (el del viernes) para no repetir lo del viernes.
 - **Domingo (especial):** lee los boletines de la semana (lunes a viernes) para tener a la mano los hechos entre los que vas a elegir las 5 más importantes.
 
-**Cerebro NEP (memoria histórica).** Además de las ediciones recientes, lee el **Cerebro NEP**: un borrador de Gmail con asunto exacto `🧠 Cerebro NEP` que guarda los hilos, actores y cronología del movimiento a lo largo del tiempo (búscalo en borradores; si no existe todavía, sáltate esto y lo crearás en el Paso 6). Úsalo para lo que hace valioso al boletín: cuando una noticia de hoy **continúe un hilo ya registrado** (un decreto que ahora se demanda, un funcionario que reaparece, una cifra que empeora), **dilo explícitamente en "Qué implica"** y conéctala con lo anterior ("esto viene de…; ver [fecha]"). Ese es el uso vivo del cerebro; al cerrar la edición lo actualizarás (Paso 6).
+**Cerebro NEP (memoria histórica).** Además de las ediciones recientes, lee el **Cerebro NEP**: un borrador de Gmail con asunto exacto `🧠 Cerebro NEP` que guarda los hilos, actores y cronología del movimiento a lo largo del tiempo (búscalo en borradores; si no existe todavía, sáltate esto y lo crearás en el Paso 6). Úsalo para lo que hace valioso al boletín: cuando una noticia de hoy **continúe un hilo ya registrado** (un decreto que ahora se demanda, un funcionario que reaparece, una cifra que empeora), **téjela con lo anterior** como explica el Paso 4 ("Tejer las noticias"): trae el hecho previo concreto y con su fecha dentro del relato, y di qué revela que se junten — no remitas al hilo ni al boletín pasado. Ese es el uso vivo del cerebro; al cerrar la edición lo actualizarás (Paso 6).
 
 Si no tienes acceso a Gmail o no hay ediciones anteriores, continúa sin este paso.
 
@@ -74,13 +74,35 @@ En una **omisión**, separa igual el hecho de la lectura: que la crisis existe, 
 
 ## Paso 4 — Redacción
 
-Escribe en español colombiano, claro, directo, sin jerga institucional. El tono es el de una persona informada contándole a otra lo que importa, no un comunicado ni una columna de opinión. La lectura política va en la sección "Qué implica", separada del hecho, para que quien lee pueda distinguir siempre qué pasó de qué pensamos nosotrxs.
+Escribe en español colombiano el mejor periodismo narrativo: **preciso y vivo a la vez**, nunca un comunicado ni jerga institucional. La lectura política sigue yendo en la sección "Qué implica", separada del hecho, para que quien lee distinga siempre qué pasó de qué pensamos nosotrxs. Dentro de esa regla, la riqueza va en **cómo se cuenta el hecho**, no en meterle juicio al hecho. Cuatro brújulas:
+
+- **Guardian:** el dato manda, pero entra por una imagen concreta y verificable, no por la abstracción. Empieza por lo que se puede ver.
+- **Orwell:** frase corta, verbo fuerte, cero jerga; palabra sencilla y voz activa. Si una palabra no aporta, va fuera. Ningún adjetivo que reemplace un dato ("brutal", "nefasto"): que el hecho golpee solo.
+- **Zweig:** detrás de cada cifra hay una persona y una hora del día. Aterriza el hecho en lo concreto y humano (el barrio, la edad, el gesto) **cuando la fuente lo dé** — nunca inventado.
+- **Jemisin:** haz *ver* el mecanismo y a dónde lleva; conecta el hecho suelto con el país que va construyendo. La imaginación ilumina consecuencias reales (en "Qué implica"); jamás fabrica hechos.
+
+Tres candados para que lo literario no se vuelva floritura ni opinión encubierta:
+- **Una** imagen o metáfora por noticia como máximo, y solo si aclara. Si la quitas y no se pierde nada, sobra.
+- Concreción sobre abstracción: "cuatro cuerpos cubiertos con plásticos blancos ante las cámaras" dice más que "un hecho polémico".
+- Sigue cabiendo en 5 minutos (500–900 palabras). Lo literario no es escribir más, es escribir mejor: el ritmo (frases cortas y, de vez en cuando, una larga que se quede sonando) hace el trabajo, no la longitud.
 
 **Lenguaje incluyente (obligatorio):** usa siempre lenguaje incluyente. En colectivos genéricos de personas reemplaza la "o" masculina por "x" (todxs, damnificadxs, ciudadanxs, informadx, nosotrxs). Deja intactos los nombres propios, los cargos de personas identificadas y los nombres oficiales de entidades (p. ej. "Consejo de Ministros"). Cuando quepa, prefiere también formas neutras ("la ciudadanía", "las personas").
 
 Prohibido: exagerar, atribuir intenciones no documentadas, usar adjetivos que sustituyan datos ("nefasto", "criminal") y reproducir textos largos de los medios (parafrasea; cita máximo una frase corta por fuente).
 
 **El lente incluye la omisión.** La sección "Lo que hizo el Gobierno" (su título no cambia) abarca también **lo que el Gobierno dejó de hacer**: la inacción ante una crisis, la desfinanciación, la ayuda que no llegó. Cuando aplique, titula desde ahí ("El Ministerio de Ambiente se queda sin recursos mientras arde el Tolima", "Cinco días de incendio y la respuesta oficial no aparece") y usa "Qué implica" para nombrar el deber incumplido, sin atribuir intenciones que no estén documentadas.
+
+### Tejer las noticias (cómo se conecta una con otra)
+
+El valor del boletín es que una noticia no llega sola: viene de algo y lleva a algo. Pero **a quien lee no le interesa nuestro archivo, le interesa la historia.** Así que **nunca remitas al hilo** ("esto viene del hilo que seguimos desde…", "ver boletín del [fecha]"): eso cuenta el enlace demasiado corto y seco, y deja al lector afuera. En su lugar, **teje**:
+
+1. **Trae el hecho anterior dentro del relato**, concreto, breve y con su fecha, como si quien lee no lo supiera: *"A mediados de octubre el Gobierno radicó la ley de sometimiento, que rebajaba penas a cambio de entrega; hoy…"*. El antecedente se cuenta, no se cita.
+2. **Di el porqué de la unión**: qué revela que los dos hechos se junten — un patrón, una contradicción, una escalada, una promesa que se cumple o se rompe. La conexión vale cuando *muestra algo*, no cuando solo avisa que existe.
+
+El recap breve del antecedente puede ir en "Qué pasó" (es parte del hecho); la lectura de lo que significa que se unan va en "Qué implica", marcada 🔍.
+
+- *Antes (seco, mirando el archivo):* "Qué implica: esto viene del hilo de la ley de sometimiento que seguimos desde mediados de octubre."
+- *Después (tejido):* "Qué pasó: … A mediados de octubre el Gobierno radicó la ley de sometimiento, que ofrecía rebajas de pena a cambio de entrega. — Qué implica: 🔍 el decreto de hoy la extiende a estructuras que entonces eran su objetivo; no es un giro, es el mismo camino un paso más adelante."
 
 ### Estructura obligatoria del boletín
 
